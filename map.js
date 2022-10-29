@@ -2,6 +2,22 @@
  L
 */
 
+function addPostcards(map, postcards) {
+    'use strict';
+    postcards.forEach(function (postcard) {
+        var marker = new L.Marker([postcard["lat"], postcard["lng"]]);
+        marker.bindPopup(
+            "<a href='" + postcard["full"] + "'><img width='320' src='" + postcard["small"] + "'/></a><p>" + postcard["description"] + "</p>",
+            {
+                maxWidth: "auto"
+            }
+        ).openPopup();
+
+        marker.addTo(map);
+
+    });
+}
+
 // Hardcoded for now as we're just trying this out with a few postcards.
 var postcards = [
     {
@@ -99,21 +115,4 @@ function mapOpacity(sliderVal) {
     var mOpac = Math.min(2.0 - sliderVal, 1.0);
     layer.setOpacity(hOpac);
     modernLayer.setOpacity(mOpac);
-}
-
-
-function addPostcards(map, postcards) {
-    'use strict';
-    postcards.forEach(function (postcard) {
-        var marker = new L.Marker([postcard["lat"], postcard["lng"]]);
-        marker.bindPopup(
-            "<a href='" + postcard["full"] + "'><img width='320' src='" + postcard["small"] + "'/></a><p>" + postcard["description"] + "</p>",
-            {
-                maxWidth: "auto"
-            }
-        ).openPopup();
-
-        marker.addTo(map);
-
-    });
 }
