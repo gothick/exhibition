@@ -90,7 +90,7 @@ var modernLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.pn
 }).addTo(map);
 
 var attribution = 'Mashup by <a href="https://gothick.org.uk">gothick</a>.';
-attribution += '<br />Historical site plan (digitised &amp; adjusted for north-facing friendliness): Bristol Archives, <a href="https://archives.bristol.gov.uk/records/37165/7/3">39864/1/1: Printed plan of Bristol International Exhibition Site adjoining Ashton Avenue and River Avon, 1914</a>.';
+attribution += '<br />Historical site plan (digitised &amp; adjusted for north-facing friendliness): Bristol Archives, <a href="https://archives.bristol.gov.uk/records/37165/7/3">37165/7/3: Printed plan of Bristol International Exhibition Site adjoining Ashton Avenue and River Avon, 1914</a>.';
 attribution += '<br />Tiled by <a href="https://gdal.org/programs/gdal2tiles.html">GDAL2Tiles</a> from <a href="https://gdal.org">GDAL</a> &amp; <a href="http://www.osgeo.org/">OSGeo</a> <a href="http://code.google.com/soc/">GSoC</a>.';
 attribution += '<br />Modern map &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>.';
 attribution += '<br />Buy Clive Burlton\'s book <em><a href="https://www.bristolbooks.org/shop/bristols-lost-city">Bristol\'s Lost City</a></em>.';
