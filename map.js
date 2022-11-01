@@ -103,7 +103,7 @@ var options = {
     tms: false,
     bounds: tileBounds // Try to avoid too many requests for tiles outside the range of our custom tiles.
 };
-var layer = L.tileLayer('{z}/{x}/{y}.png', options).addTo(map);
+var planLayer = L.tileLayer('plan/{z}/{x}/{y}.png', options).addTo(map);
 
 map.zoomControl.setPosition('bottomright');
 
@@ -113,6 +113,6 @@ function mapOpacity(sliderVal) {
     'use strict';
     var hOpac = Math.min(sliderVal, 1.0);
     var mOpac = Math.min(2.0 - sliderVal, 1.0);
-    layer.setOpacity(hOpac);
+    planLayer.setOpacity(hOpac);
     modernLayer.setOpacity(mOpac);
 }
