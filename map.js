@@ -2,7 +2,7 @@
  L
 */
 
-var assetsBase = "assets/";
+var assetsBase = "https://exhibition-cdn.gothick.org.uk/";
 
 function addPostcards(map, postcards) {
     'use strict';
