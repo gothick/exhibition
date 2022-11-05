@@ -2,12 +2,14 @@
  L
 */
 
+var assetsBase = "assets/";
+
 function addPostcards(map, postcards) {
     'use strict';
     postcards.forEach(function (postcard) {
-        var marker = new L.Marker([postcard["lat"], postcard["lng"]]);
+        var marker = new L.Marker([postcard.lat, postcard.lng]);
         marker.bindPopup(
-            "<a href='" + postcard["full"] + "'><img width='320' src='" + postcard["small"] + "'/></a><p>" + postcard["description"] + "</p>",
+            "<a href='" + assetsBase + postcard.full + "'><img width='320' src='" + assetsBase + postcard.small + "'/></a><p>" + postcard.description + "</p>",
             {
                 maxWidth: "auto"
             }
@@ -103,7 +105,7 @@ var options = {
     tms: false,
     bounds: tileBounds // Try to avoid too many requests for tiles outside the range of our custom tiles.
 };
-var planLayer = L.tileLayer('plan/{z}/{x}/{y}.png', options).addTo(map);
+var planLayer = L.tileLayer(assetsBase + 'images/tiles/plan/{z}/{x}/{y}.png', options).addTo(map);
 
 map.zoomControl.setPosition('bottomright');
 
