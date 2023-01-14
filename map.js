@@ -53,6 +53,14 @@ var postcards = [
         "small": encodeURI("images/small/Postcard Riverside Promenade.jpg"),
         "lat": 51.446014,
         "lng": -2.623449
+    },
+    {
+        "title": "Bandstand and Australia Pavilion",
+        "description": "Bandstand and Australia Pavilion. Burgess & co postcard.",
+        "full": encodeURI("images/full/Bandstand and Australia Pavilion.jpg"),
+        "small": encodeURI("images/small/Bandstand and Australia Pavilion.jpg"),
+        "lat": 51.44559,
+        "lng": -2.62329
     }
 ];
 
