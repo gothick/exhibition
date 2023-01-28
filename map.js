@@ -65,8 +65,8 @@ var postcards = [
     {
         "title": "Shakespeare's England",
         "description": "Shakespeare's England. Postcard (sent 16 Aug 1914) with photo by Knighton & Cutts.",
-        "full": encodeURI("images/full/Shakespeare's England.jpg"),
-        "small": encodeURI("images/small/Shakespeare's England.jpg"),
+        "full": encodeURI("images/full/Shakespeare&apos;s England.jpg"),
+        "small": encodeURI("images/small/Shakespeare&apos;s England.jpg"),
         "lat": 51.444382,
         "lng": -2.623368
     }
