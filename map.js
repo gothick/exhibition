@@ -69,6 +69,14 @@ var postcards = [
         "small": encodeURI("images/small/Shakespeare&apos;s England.jpg"),
         "lat": 51.444382,
         "lng": -2.623368
+    },
+    {
+        "title": "Shakespeare's England",
+        "description": "Dominions Pavilion (eastern) with Bristol Castle in the background. JB&SB postcard.",
+        "full": encodeURI("images/full/Castle and Dominions.jpg"),
+        "small": encodeURI("images/small/Castle and Dominions.jpg"),
+        "lat": 51.446651,
+        "lng": -2.623831
     }
 ];
 
