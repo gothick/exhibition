@@ -32,7 +32,7 @@ var postcards = [
     },
     {
         "title": "Clifton Bridge Station",
-        "description": "Later postcard of Clifton Bridge Station. The Portishead Branch Line still travels along this route, and bridges that marked each platform end are still in use today.",
+        "description": "Later postcard of Clifton Bridge Station, which was renamed Exhibition Station while the exhibition was on. The Portishead Branch Line still travels along this route, and bridges that marked each platform end are still in use today.",
         "full": encodeURI("images/full/Postcard Clifton Bridge Station.jpg"),
         "small": encodeURI("images/small/Postcard Clifton Bridge Station.jpg"),
         "lat": 51.447155,
