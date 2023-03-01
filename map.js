@@ -71,12 +71,28 @@ var postcards = [
         "lng": -2.623368
     },
     {
-        "title": "Shakespeare's England",
+        "title": "Castle and Dominions",
         "description": "Dominions Pavilion (eastern) with Bristol Castle in the background. JB&SB postcard.",
         "full": encodeURI("images/full/Castle and Dominions.jpg"),
         "small": encodeURI("images/small/Castle and Dominions.jpg"),
         "lat": 51.446651,
         "lng": -2.623831
+    },
+    {
+        "title": "The Collonade",
+        "description": "The Collonade (sic) under construction, it seems. 'Chatterton' series postcard by AGS & Co., Bristol. Photo by Knighton & Cutts Ltd.",
+        "full": encodeURI("images/full/The Collonade.jpg"),
+        "small": encodeURI("images/small/The Collonade.jpg"),
+        "lat": 51.443621,
+        "lng": -2.625359
+    },
+    {
+        "title": "Historical Exhibits, Bristol Castle",
+        "description": "Historical exhibits inside the replica Bristol Castle. 'Chatterton' series postcard by AGS & Co., Bristol.",
+        "full": encodeURI("images/full/Historical Exhibits in Bristol Castle.jpg"),
+        "small": encodeURI("images/small/Historical Exhibits in Bristol Castle.jpg"),
+        "lat": 51.446526,
+        "lng": -2.625283
     }
 ];
 
