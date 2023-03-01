@@ -27,8 +27,8 @@ var postcards = [
         "description": "Replica of Bristol Castle. WH Smith postcard.",
         "full": encodeURI("images/full/Postcard Bristol Castle.jpg"),
         "small": encodeURI("images/small/Postcard Bristol Castle.jpg"),
-        "lat": 51.446483,
-        "lng": -2.625353
+        "lat": 51.446411,
+        "lng": -2.624430
     },
     {
         "title": "Clifton Bridge Station",
