@@ -93,6 +93,14 @@ var postcards = [
         "small": encodeURI("images/small/Historical Exhibits in Bristol Castle.jpg"),
         "lat": 51.446526,
         "lng": -2.625283
+    },
+    {
+        "title": "Eastern Tea Gardens",
+        "description": "The gardens were Eastern-themed, rather than being in the east of the exhibition, with huge canvases painted with Eastern scenes lining the edge. Visible in the distance is Bedminster Cricket Club's ground. WH Smith postcard.",
+        "full": encodeURI("images/full/Eastern Tea Gardens.jpg"),
+        "small": encodeURI("images/small/Eastern Tea Gardens.jpg"),
+        "lat": 51.444971,
+        "lng": -2.625541
     }
 ];
 
