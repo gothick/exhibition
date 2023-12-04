@@ -101,6 +101,14 @@ var postcards = [
         "small": encodeURI("images/small/Eastern Tea Gardens.jpg"),
         "lat": 51.444981,
         "lng": -2.625420
+    },
+    {
+        "title": "Bristol Castle and Dominions Pavilion with Ferry",
+        "description": "With what I presume is part of the Rownham Ferry in the foreground. It's in the right place, anyway. At lower tides, the ferry was a bridge of boats like the one you see there with the transverse walking platform strung across it. Chatterton Series postcard by A.G.S. & Co., Bristol",
+        "full": encodeURI("images/full/Bristol Castle and Dominions Pavilion with Ferry.jpg"),
+        "small": encodeURI("images/small/Bristol Castle and Dominions Pavilion with Ferry.jpg"),
+        "lat": 51.447963,
+        "lng": -2.624021
     }
 ];
 
