@@ -109,6 +109,22 @@ var postcards = [
         "small": encodeURI("images/small/Bristol Castle and Dominions Pavilion with Ferry.jpg"),
         "lat": 51.447963,
         "lng": -2.624021
+    },
+    {
+        "title": "Pageant of Bristol",
+        "description": "A re-enactment of Queen Elizabeth's visit to Bristol. The visit, in 1574, apparently included a lengthy mock battle between War and Peace. Chatterton Series postcard by A.G.S. & Co., Bristol.",
+        "full": encodeURI("images/full/Pageant of Bristol.jpg"),
+        "small": encodeURI("images/small/Pageant of Bristol.jpg"),
+        "lat": 51.444599,
+        "lng": -2.622949
+    },
+    {
+        "title": "Dominion Gardens",
+        "description": "With the Australia Pavilion and the Bandstand. WH Smith postcard.",
+        "full": encodeURI("images/full/Dominion Gardens.jpg"),
+        "small": encodeURI("images/small/Dominion Gardens.jpg"),
+        "lat": 51.445457,
+        "lng": -2.623942
     }
 ];
 
