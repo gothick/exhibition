@@ -3,6 +3,7 @@ lock "~> 3.17.1"
 
 set :application, "exhibition"
 set :repo_url, "git@github.com:gothick/exhibition.git"
+set :repo_tree, "www"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
