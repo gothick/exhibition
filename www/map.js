@@ -125,6 +125,14 @@ var postcards = [
         "small": encodeURI("images/small/Dominion Gardens.jpg"),
         "lat": 51.445457,
         "lng": -2.623942
+    },
+    {
+        "title": "Village Green",
+        "description": "With vendors of sweets, tobacco, toys and palmistry in the background. Postcard; unknown manufacturer.",
+        "full": encodeURI("images/full/Village Green.jpg"),
+        "small": encodeURI("images/small/Village Green.jpg"),
+        "lat": 51.44445,
+        "lng": -2.62298
     }
 ];
 
