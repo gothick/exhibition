@@ -128,7 +128,7 @@ var postcards = [
     },
     {
         "title": "Village Green",
-        "description": "With vendors of sweets, tobacco, toys and palmistry in the background. Postcard; unknown manufacturer.",
+        "description": "The Village Green, with vendors of sweets, tobacco, toys and palmistry in the background. Postcard; unknown manufacturer.",
         "full": encodeURI("images/full/Village Green.jpg"),
         "small": encodeURI("images/small/Village Green.jpg"),
         "lat": 51.44445,
