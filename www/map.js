@@ -133,6 +133,14 @@ var postcards = [
         "small": encodeURI("images/small/Village Green.jpg"),
         "lat": 51.44445,
         "lng": -2.62298
+    },
+    {
+        "title": "General View of Exhibition",
+        "description": "View of bandstand, Dominions Pavilion and Bristol Castle. WH Smith postcard.",
+        "full": encodeURI("images/full/General View of Exhibition.jpg"),
+        "small": encodeURI("images/small/General View of Exhibition.jpg"),
+        "lat": 51.446823,
+        "lng": -2.623218
     }
 ];
 
