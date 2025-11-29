@@ -145,8 +145,8 @@ var postcards = [
     {
         "title": "Major Richardson's Dogs",
         "description": "A picture of service dog trainer <a href='https://en.wikipedia.org/wiki/Edwin_Hautenville_Richardson'>Major Edwin Hautenville Richardson</a>, with dogs. Postcard by WH Smith & Son.",
-        "full": encodeURI("images/full/Major Richardson's Dogs.jpg"),
-        "small": encodeURI("images/small/Major Richardson's Dogs.jpg"),
+        "full": encodeURI("images/full/Major Richardson&apos;s Dogs.jpg"),
+        "small": encodeURI("images/small/Major Richardson&apos;s Dogs.jpg"),
         "lat": 51.446040,
         "lng": -2.623233
     },
